@@ -9,8 +9,6 @@ public abstract class LogSeverityMessage {
     private String message;
     private SeverityLevel severityLevel;
 
-
-
     public LogSeverityMessage(String message, SeverityLevel severityLevel) {
         this.message = message;
         this.severityLevel = severityLevel;
